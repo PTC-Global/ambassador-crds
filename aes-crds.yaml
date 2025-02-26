@@ -6168,7 +6168,7 @@ spec:
               statsPrefix:
                 description: 'StatsPrefix specifies the prefix for statistics sent
                   by Envoy about this Listener. The default depends on the protocol:
-                  "ingress-http", "ingress-https", "ingress-tls-$port", or "ingress-$port".'
+                  "ingress-http", "ingress-https", "ingress-tls-$$port", or "ingress-$$port".'
                 type: string
             required:
             - hostBinding
