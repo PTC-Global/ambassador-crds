@@ -5384,7 +5384,7 @@ spec:
             properties:
               acmeProvider:
                 description: Specifies whether/who to talk ACME with to automatically
-                  manage the $tlsSecret.
+                  manage the $$tlsSecret.
                 properties:
                   authority:
                     description: Specifies who to talk ACME with to get certs. Defaults
@@ -5672,7 +5672,7 @@ spec:
             properties:
               acmeProvider:
                 description: Specifies whether/who to talk ACME with to automatically
-                  manage the $tlsSecret.
+                  manage the $$tlsSecret.
                 properties:
                   authority:
                     description: Specifies who to talk ACME with to get certs. Defaults
