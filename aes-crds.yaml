@@ -5468,7 +5468,7 @@ spec:
             properties:
               acmeProvider:
                 description: Specifies whether/who to talk ACME with to automatically
-                  manage the $$tlsSecret.
+                  manage the tls secret.
                 properties:
                   authority:
                     description: Specifies who to talk ACME with to get certs. Defaults
