@@ -5406,7 +5406,7 @@ spec:
             properties:
               acmeProvider:
                 description: Specifies whether/who to talk ACME with to automatically
-                  manage the $tlsSecret.
+                  manage the tlsSecret.
                 properties:
                   authority:
                     description: Specifies who to talk ACME with to get certs. Defaults
@@ -5481,7 +5481,7 @@ spec:
                 type: object
               selector:
                 description: Selector by which we can find further configuration.
-                  Defaults to hostname=$hostname
+                  Defaults to hostname
                 properties:
                   matchExpressions:
                     description: matchExpressions is a list of label selector requirements.
@@ -5588,8 +5588,8 @@ spec:
                 x-kubernetes-map-type: atomic
               tlsSecret:
                 description: Name of the Kubernetes secret into which to save generated
-                  certificates.  If ACME is enabled (see $acmeProvider), then the
-                  default is $hostname; otherwise the default is "".  If the value
+                  certificates.  If ACME is enabled , then the
+                  default is hostname; otherwise the default is "".  If the value
                   is "", then we do not do TLS for this Host.
                 properties:
                   name:
@@ -5694,7 +5694,7 @@ spec:
             properties:
               acmeProvider:
                 description: Specifies whether/who to talk ACME with to automatically
-                  manage the $tlsSecret.
+                  manage the tlsSecret.
                 properties:
                   authority:
                     description: Specifies who to talk ACME with to get certs. Defaults
@@ -5930,8 +5930,8 @@ spec:
                 x-kubernetes-map-type: atomic
               tlsSecret:
                 description: Name of the Kubernetes secret into which to save generated
-                  certificates.  If ACME is enabled (see $acmeProvider), then the
-                  default is $hostname; otherwise the default is "".  If the value
+                  certificates.  If ACME is enabled (see acmeProvider), then the
+                  default is hostname; otherwise the default is "".  If the value
                   is "", then we do not do TLS for this Host.
                 properties:
                   name:
@@ -6425,7 +6425,7 @@ spec:
               statsPrefix:
                 description: 'StatsPrefix specifies the prefix for statistics sent
                   by Envoy about this Listener. The default depends on the protocol:
-                  "ingress-http", "ingress-https", "ingress-tls-$port", or "ingress-$port".'
+                  "ingress-http", "ingress-https", "ingress-tls-port", or "ingress-port".'
                 type: string
             required:
             - hostBinding
