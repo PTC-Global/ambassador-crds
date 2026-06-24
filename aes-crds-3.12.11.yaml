@@ -519,7 +519,7 @@ spec:
                   - index
                   - path
                   type: object
-                maxItems: 64
+                maxItems: 120
                 type: array
                 x-kubernetes-list-map-keys:
                 - index
@@ -1949,7 +1949,7 @@ spec:
                   - index
                   - path
                   type: object
-                maxItems: 64
+                maxItems: 120
                 type: array
                 x-kubernetes-list-map-keys:
                 - index
@@ -2553,7 +2553,7 @@ spec:
                   required:
                   - index
                   type: object
-                maxItems: 64
+                maxItems: 120
                 type: array
                 x-kubernetes-list-map-keys:
                 - index
@@ -2811,7 +2811,7 @@ spec:
                   required:
                   - index
                   type: object
-                maxItems: 64
+                maxItems: 120
                 type: array
                 x-kubernetes-list-map-keys:
                 - index
