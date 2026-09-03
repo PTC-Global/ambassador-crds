@@ -1,0 +1,11 @@
+versions:
+  3.12.13:
+    crds_prepared_at: '2026-09-03T10:43:06Z'
+    crds_prepared_by: ci/ambassador-upgrade-prep@3590501
+    files:
+    - aes-crds-3.12.13-full-atlashub.yaml
+    - aes-crds-3.12.13-full-msairegistry.yaml
+    - aes-crds-3.12.13-full-ptcclouddockerreg.yaml
+    - aes-crds-3.12.13-full.yaml
+    - aes-crds-3.12.13.yaml
+    upstream_edge_stack_chart_version: 8.12.13
