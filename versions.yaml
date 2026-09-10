@@ -8,4 +8,11 @@ versions:
     - aes-crds-3.14.1-full-ptcclouddockerreg.yaml
     - aes-crds-3.14.1-full.yaml
     - aes-crds-3.14.1.yaml
+    images:
+      atlashub: atlashub.azurecr.io/aes:3.14.1
+      msairegistry: msairegistry.azurecr.io/aes:3.14.1
+      ptcclouddockerreg: ptcclouddockerreg.azurecr.io/aes:3.14.1
+      source: ci-images-docker.artifacts.rd-services.aws.ptc.com/datawire/aes:3.14.1
+    images_prepared_at: '2026-09-10T10:56:00Z'
+    images_prepared_by: ci/ambassador-upgrade-prep@3599551
     upstream_edge_stack_chart_version: 8.14.1
