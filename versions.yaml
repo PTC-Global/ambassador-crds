@@ -1,9 +1,10 @@
 versions:
   3.14.1:
-    crds_prepared_at: '2026-09-10T10:54:54Z'
-    crds_prepared_by: ci/ambassador-upgrade-prep@3599551
+    crds_prepared_at: '2026-10-27T10:37:07Z'
+    crds_prepared_by: ci/ambassador-upgrade-prep@1354484
     files:
     - aes-crds-3.14.1-full-atlashub.yaml
+    - aes-crds-3.14.1-full-atlasstregmagdev.yaml
     - aes-crds-3.14.1-full-msairegistry.yaml
     - aes-crds-3.14.1-full-ptcclouddockerreg.yaml
     - aes-crds-3.14.1-full.yaml
